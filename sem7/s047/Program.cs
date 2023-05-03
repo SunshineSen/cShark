@@ -22,16 +22,16 @@ void PrintArrayTwoDim(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            System.Console.Write(array[i, j] + " ");
         }
-        Console.WriteLine();
+        System.Console.WriteLine();
     }
-    Console.WriteLine();
+    System.Console.WriteLine();
 }
 
 
 int ReadInt(string message)
 {
-    Console.Write(message);
+    System.Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
