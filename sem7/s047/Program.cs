@@ -3,7 +3,7 @@ int lineM = ReadInt("Введите m: ");
 int columN = ReadInt("Введите n: ");
 double[,] numbers = new double[lineM, columN];
 CreateRandomArray(numbers);
-PrintArray(numbers);
+PrintArrayTwoDim(numbers);
 
 void CreateRandomArray(double[,] array)
 {
@@ -16,7 +16,7 @@ void CreateRandomArray(double[,] array)
     }
 }
 
-void PrintArray(double[,] array)
+void PrintArrayTwoDim(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
